@@ -1,0 +1,175 @@
+@charset "UTF-8";
+body {
+font-size: 14px;
+	font-family: Roboto, Arial, sans-serif;
+	color: #261C1B;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Roboto, 'Arial', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+p, span {
+	font-family: Roboto, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-display: swap;
+    src: url('../fonts/roboto-thin-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-thin-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-display: swap;	
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-display: swap;	
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+
+@media (min-width: 576px) {
+	.container {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.big-container {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.big-container {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.big-container {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.big-container {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
+@media (min-width: 576px) {
+	.container {
+		width: 540px;
+		max-width: 100%;
+	}
+	.big-container {
+		width: 540px;
+		max-width: 100%;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 720px;
+		max-width: 100%;
+	}
+	.big-container {
+		width: 720px;
+		max-width: 100%;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		width: 960px;
+		max-width: 100%;
+	}
+	.big-container {
+		width: 960px;
+		max-width: 100%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1140px;
+		max-width: 100%;
+	}
+	.big-container {
+		width: 1140px;
+		max-width: 100%;
+	}
+}
+
+@media (min-width: 1600px) {
+	.container {
+		width: 1470px;
+		max-width: 100%;
+	}
+	.big-container {
+		width: 1470px;
+		max-width: 100%;
+	}
+}
+
+@media (min-width: 1900px) {
+	.big-container {
+		width: 1700px;
+		max-width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+@import 'varmix';
+@import 'header';
+@import 'form';
+@import 'content';
+@import 'footer';
+
